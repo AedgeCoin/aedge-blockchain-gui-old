@@ -70,7 +70,6 @@ export default function FarmLatestBlockChallenges() {
           >
             Aedge Explorer
           </Link>{' '}
-          built by an open source developer.
         </Trans>
       </Typography>
     </Card>
