@@ -57,6 +57,23 @@ export default function LocaleToggle(props: Props) {
       >
         {currentLocaleLabel}
       </Button>
+      <Menu
+        id="simple-menu"
+        anchorEl={anchorEl}
+        keepMounted
+        open={open}
+        onClose={handleClose}
+      >
+        {locales.map((item) => (
+          <MenuItem
+            key={item.locale}
+            onClick={() => handleSelect(item.locale)}
+            selected={item.locale === currentLocale}
+          >
+            {item.label}
+          </MenuItem>
+        ))}
+      </Menu>
     </>
   );
 }
