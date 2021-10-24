@@ -136,7 +136,7 @@ const getStatusItems = (state, connected, latestPeakTimestamp, networkInfo) => {
     const item = {
       label: <Trans>Status</Trans>,
       value: <Trans>Synced</Trans>,
-      colour: '#034072',
+      colour: '#2EC4B6',
       tooltip: (
         <Trans>This node is fully caught up and validating the network</Trans>
       ),
