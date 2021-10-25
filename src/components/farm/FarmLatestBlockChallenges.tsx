@@ -65,7 +65,7 @@ export default function FarmLatestBlockChallenges() {
           *Want to explore Aedge’s blocks further? Check out{' '}
           <Link
             color="primary"
-            href="https://alltheblocks.net/aedgecoin/"
+            href="https://alltheblocks.net/aedge/"
             target="_blank"
           >
             Aedge Explorer
