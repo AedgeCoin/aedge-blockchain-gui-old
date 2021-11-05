@@ -269,7 +269,7 @@ export default function Block() {
       value: (
         <Link
           target="_blank"
-          href={`https://alltheblocks.net/aedge/block/puzzlehash/${blockRecord.farmer_puzzle_hash}`}
+          href={`https://www.aedgeexplorer.com/blockchain/puzzlehash/${blockRecord.farmer_puzzle_hash}`}
         >
           {currencyCode
             ? toBech32m(
@@ -285,7 +285,7 @@ export default function Block() {
       value: (
         <Link
           target="_blank"
-          href={`https://alltheblocks.net/aedge/block/puzzlehash/${blockRecord.pool_puzzle_hash}`}
+          href={`https://www.aedgeexplorer.com/blockchain/puzzlehash/${blockRecord.pool_puzzle_hash}`}
         >
           {currencyCode
             ? toBech32m(
@@ -335,7 +335,7 @@ export default function Block() {
         title={
           <Back variant="h5">
             <Trans>
-              Block at height {blockRecord.height} in the Aedge Blockchain
+              Block at height {blockRecord.height} in the Aedge blockchain
             </Trans>
           </Back>
         }

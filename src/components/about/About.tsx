@@ -142,7 +142,6 @@ export default function About(props: Props) {
             </tr>
           )}
         </VersionsTable>
-
         {'{{CSS}}'}
       </body>
     </html>

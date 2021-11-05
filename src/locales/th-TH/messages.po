@@ -230,8 +230,8 @@ msgid "Block VDF Iterations"
 msgstr "การทำซ้ำของบล็อค VDF"
 
 #: src/components/block/Block.jsx:337
-msgid "Block at height {0} in the Aedge Blockchain"
-msgstr "ปริมาณของบล็อคใน Aedge Blockchain คือ {0}"
+msgid "Block at height {0} in the Aedge blockchain"
+msgstr "ปริมาณของบล็อคใน Aedge blockchain คือ {0}"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -2097,8 +2097,8 @@ msgstr "สถานะ:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Aedge Blockchain"
-#~ msgstr "Sub Block at height {0} in the Aedge Blockchain"
+#~ msgid "Sub Block at height {0} in the Aedge blockchain"
+#~ msgstr "Sub Block at height {0} in the Aedge blockchain"
 
 #: src/components/wallet/did/WalletDID.tsx:886
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:347

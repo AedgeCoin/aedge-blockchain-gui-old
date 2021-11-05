@@ -97,9 +97,6 @@ export default function Dashboard() {
           <Route path={`${path}/farm`}>
             <Farm />
           </Route>
-          <Route path={`${path}/pool`}>
-            <Pool />
-          </Route>
           <Route path={`${path}/trade`}>
             <TradeManager />
           </Route>

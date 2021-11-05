@@ -187,8 +187,8 @@ msgid "Block VDF Iterations"
 msgstr "Block VDF Iterasies"
 
 #: src/components/block/Block.jsx:311
-msgid "Block at height {0} in the Aedge Blockchain"
-msgstr "Blok is op hoogte {0} in die Aedge Blockchain"
+msgid "Block at height {0} in the Aedge blockchain"
+msgstr "Blok is op hoogte {0} in die Aedge blockchain"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -1584,8 +1584,8 @@ msgstr ""
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Aedge Blockchain"
-#~ msgstr "Sub Block at height {0} in the Aedge Blockchain"
+#~ msgid "Sub Block at height {0} in the Aedge blockchain"
+#~ msgstr "Sub Block at height {0} in the Aedge blockchain"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:357
 msgid "Submit"

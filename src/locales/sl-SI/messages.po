@@ -230,7 +230,7 @@ msgid "Block VDF Iterations"
 msgstr ""
 
 #: src/components/block/Block.jsx:337
-msgid "Block at height {0} in the Aedge Blockchain"
+msgid "Block at height {0} in the Aedge blockchain"
 msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:331
@@ -330,7 +330,7 @@ msgstr "Aedge"
 
 #: src/electron/main.tsx:358
 msgid "Aedge Blockchain Wiki"
-msgstr "Aedge Blockchain wiki"
+msgstr "Aedge blockchain wiki"
 
 #: src/components/wallet/standard/WalletStandard.tsx:649
 msgid "Aedge Wallet"
@@ -2097,8 +2097,8 @@ msgstr "Stanje:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Aedge Blockchain"
-#~ msgstr "Sub Block at height {0} in the Aedge Blockchain"
+#~ msgid "Sub Block at height {0} in the Aedge blockchain"
+#~ msgstr "Sub Block at height {0} in the Aedge blockchain"
 
 #: src/components/wallet/did/WalletDID.tsx:886
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:347

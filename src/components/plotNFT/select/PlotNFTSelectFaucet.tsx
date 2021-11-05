@@ -14,7 +14,11 @@ export default function PlotNFTSelectFaucet(props: Props) {
   const { step, onCancel } = props;
   const currencyCode = useCurrencyCode();
   const openExternal = useOpenExternal();
-  
+
+  function handleClick() {
+    openExternal('https://faucet.aedgecoin.com/');
+  }
+
   return (
     <CardStep
       step={step}
