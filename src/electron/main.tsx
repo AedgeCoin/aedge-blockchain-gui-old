@@ -367,15 +367,6 @@ if (!handleSquirrelEvent()) {
         label: i18n._(/* i18n */ { id: 'Aedge' }),
         submenu: [
           {
-            label: i18n._(/* i18n */ { id: 'About Aedge Blockchain' }),
-            click: () => {
-              openAbout();
-            },
-          },
-          {
-            type: 'separator',
-          },
-          {
             role: 'services',
           },
           {

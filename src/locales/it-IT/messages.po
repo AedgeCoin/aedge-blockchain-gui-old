@@ -18,15 +18,7 @@ msgstr ""
 "X-Crowdin-File: /[AedgeCoin.aedge-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
-#: src/components/plot/add/PlotAddChoosePlotter.tsx:78
-msgid "(Not Installed)"
-msgstr ""
-
-#: src/components/plot/add/PlotAddChoosePlotter.tsx:75
-msgid "(Not Supported)"
-msgstr ""
-
-#: src/components/plot/add/PlotAddNFT.tsx:67
+#: src/components/plot/add/PlotAddNFT.tsx:62
 msgid "(Optional)"
 msgstr "(Opzionale)"
 
@@ -34,7 +26,7 @@ msgstr "(Opzionale)"
 msgid "*Want to explore Aedge’s blocks further? Check out <0>Aedge Explorer</0> built by an open source developer."
 msgstr "*Vuoi esplorare ulteriormente i blocchi della rete Aedge? Dai uno sguardo a <0>Aedge Explorer</0> creato da uno sviluppatore open source."
 
-#: src/components/plot/add/PlotAddNFT.tsx:128
+#: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
 msgstr "+ Aggiungi Nuovo Plot NFT"
 
@@ -47,16 +39,12 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:148
-#~ msgid "128 buckets is recommended"
-#~ msgstr "Sono consigliati 128 bucket"
+msgid "128 buckets is recommended"
+msgstr "Sono consigliati 128 bucket"
 
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:98
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr "Un harvester (letteralmente mietitrice) è un servizio eseguito sulla macchina in cui i plot sono conservati. Un farmer (agricoltore) e la sua harvester comunicano con un full node per vedere lo stato della blockchain. Guarda la tua rete di harvester connessi in basso Per saperne di più"
-
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:155
-msgid "A value of {0} is recommended"
-msgstr ""
 
 #: src/electron/main.tsx:431
 #: src/electron/main.tsx:518
@@ -107,7 +95,7 @@ msgstr "Aggiungi uno o più Plot alla Coda"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:46
 #: src/components/plot/PlotHeader.tsx:63
-#: src/components/plot/add/PlotAdd.tsx:191
+#: src/components/plot/add/PlotAdd.tsx:160
 #: src/components/plot/overview/PlotOverviewHero.tsx:54
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:230
 #: src/components/plotNFT/PlotNFTCard.tsx:272
@@ -143,10 +131,6 @@ msgstr "Indirizzo / Puzzle hash"
 
 #: src/components/app/AppKeyringMigrator.tsx:195
 msgid "After your keys are successfully migrated to the new keyring, you may choose to have your keys removed from the old keyring."
-msgstr ""
-
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:238
-msgid "Alternate tmpdir/tmpdir2"
 msgstr ""
 
 #: src/components/core/components/Amount/Amount.tsx:99
@@ -193,7 +177,7 @@ msgstr "Sei sicuro di voler chiudere il programma? Plotting e farming effettuati
 #~ msgid "Are you sure you want to use k={plotSize}"
 #~ msgstr "Are you sure you want to use k={plotSize}"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:52
+#: src/components/plot/add/PlotAddChooseSize.tsx:38
 msgid "Are you sure you want to use k={plotSize}?"
 msgstr "Sei sicuro di voler usare k={plotSize}?"
 
@@ -273,9 +257,9 @@ msgstr "Blocchi"
 #~ msgid "Both values are empty. This is ok if you are, for example, sending your rewards to an offline wallet."
 #~ msgstr "Both values are empty. This is ok if you are, for example, sending your rewards to an offline wallet."
 
-#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:72
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:92
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:123
+#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:61
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:79
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:110
 msgid "Browse"
 msgstr "Sfoglia"
 
@@ -351,8 +335,8 @@ msgid "Change Pool"
 msgstr "Cambia Pool"
 
 #: src/electron/main.tsx:410
-msgid "Chat on KeyBase"
-msgstr "Chatta su KeyBase"
+msgid "Chat on Discord"
+msgstr "Chatta su Discord"
 
 #: src/electron/main.tsx:428
 msgid "Aedge"
@@ -366,17 +350,13 @@ msgstr "Wiki della Blockchain Aedge"
 msgid "Aedge Wallet"
 msgstr "Portafoglio Aedge"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:34
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
 msgstr "Scegli il numero di Plot"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:75
+#: src/components/plot/add/PlotAddChooseSize.tsx:61
 msgid "Choose Plot Size"
 msgstr "Scegli la Dimensione del Plot"
-
-#: src/components/plot/add/PlotAddChoosePlotter.tsx:105
-msgid "Choose Plotter"
-msgstr ""
 
 #: src/components/plotNFT/PlotNFTCard.tsx:384
 #: src/components/pool/PoolOverview.tsx:92
@@ -517,7 +497,7 @@ msgid "Copy to Clipboard"
 msgstr "Copia negli appunti"
 
 #: src/components/backup/BackupCreate.tsx:58
-#: src/components/plot/add/PlotAdd.tsx:211
+#: src/components/plot/add/PlotAdd.tsx:177
 #: src/components/plotNFT/select/PlotNFTSelectPool.tsx:175
 #: src/components/wallet/create/createExistingColouredCoin.jsx:133
 #: src/components/wallet/create/createNewColouredCoin.jsx:142
@@ -577,13 +557,13 @@ msgstr "Crea una transazione"
 msgid "Create a Backup"
 msgstr "Crea un Backup"
 
-#: src/components/plot/add/PlotAddNFT.tsx:47
+#: src/components/plot/add/PlotAddNFT.tsx:42
 msgid "Create a Plot NFT"
 msgstr "Crea un Plot NFT"
 
 #: src/components/selectKey/SelectKey.tsx:254
 msgid "Create a new private key"
-msgstr "Crea una nuova chiave privata"
+msgstr "Crea una nuova aedgeve privata"
 
 #: src/components/wallet/create/WalletCreate.jsx:186
 msgid "Create admin wallet"
@@ -625,7 +605,7 @@ msgstr "Creazione di Plot NFT e Unirsi alla Pool"
 msgid "Creating Plot NFT for Self Pooling"
 msgstr "Creazione di Plot NFT per l'auto-pooling"
 
-#: src/components/plot/add/PlotAdd.tsx:117
+#: src/components/plot/add/PlotAdd.tsx:86
 msgid "Currency code is not defined"
 msgstr "Codice valuta non definito"
 
@@ -649,7 +629,7 @@ msgstr "Stato attuale dello scambio"
 
 #: src/components/selectKey/SelectKey.tsx:227
 msgid "DANGER: permanently delete private key"
-msgstr "ATTENZIONE: cancella permanentemente la chiave privata"
+msgstr "ATTENZIONE: cancella permanentemente la aedgeve privata"
 
 #: src/components/wallet/Wallets.tsx:53
 #~ msgid "DID Wallet"
@@ -665,7 +645,7 @@ msgstr "ATTENZIONE: cancella permanentemente la chiave privata"
 msgid "Date"
 msgstr "Data"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:93
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:92
 msgid "Delay"
 msgstr "Ritardo"
 
@@ -701,7 +681,7 @@ msgstr "Elimina Transazioni non Confermate"
 #: src/components/selectKey/SelectKey.tsx:114
 #: src/components/selectKey/SelectKey.tsx:273
 msgid "Delete all keys"
-msgstr "Elimina tutte le chiavi"
+msgstr "Elimina tutte le aedgevi"
 
 #: src/components/selectKey/SelectKey.tsx:58
 #~ msgid "Delete key"
@@ -709,11 +689,11 @@ msgstr "Elimina tutte le chiavi"
 
 #: src/components/selectKey/SelectKey.tsx:75
 msgid "Delete key {fingerprint}"
-msgstr "Elimina chiave {fingerprint}"
+msgstr "Elimina aedgeve {fingerprint}"
 
 #: src/components/selectKey/SelectKey.tsx:126
 #~ msgid "Deleting all keys will permanently remove the keys from your computer, make sure you have backups. Are you sure you want to continue?"
-#~ msgstr "Eliminando tutte le chiavi queste saranno rimosse definitivamente dal tuo computer, assicurati di avere un backup. Sei sicuro di voler continuare?"
+#~ msgstr "Eliminando tutte le aedgevi queste saranno rimosse definitivamente dal tuo computer, assicurati di avere un backup. Sei sicuro di voler continuare?"
 
 #: src/components/app/AppPassPrompt.tsx:194
 msgid "Deleting key"
@@ -721,11 +701,7 @@ msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:101
 #~ msgid "Deleting the key will permanently remove the key from your computer, make sure you have backups. Are you sure you want to continue?"
-#~ msgstr "Eliminando la chiave questa sarà rimossa definitivamente dal tuo computer, assicurati di avere un backup. Sei sicuro di voler continuare?"
-
-#: src/components/plot/add/PlotAddChoosePlotter.tsx:107
-msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Aedge Proof of Space plotter. If unsure, use the default Aedge Proof of Space plotter."
-msgstr ""
+#~ msgstr "Eliminando la aedgeve questa sarà rimossa definitivamente dal tuo computer, assicurati di avere un backup. Sei sicuro di voler continuare?"
 
 #: src/electron/main.tsx:313
 msgid "Developer"
@@ -744,10 +720,6 @@ msgstr "Difficoltà"
 msgid "Disable"
 msgstr ""
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:266
-msgid "Disable NUMA"
-msgstr ""
-
 #: src/components/app/AppPassPrompt.tsx:77
 msgid "Disable Passphrase Protection"
 msgstr ""
@@ -756,7 +728,7 @@ msgstr ""
 #~ msgid "Disable bifield plotting when your temporary directory is on fast storage like SSD or you need lower per process RAM requirements. Plotting with bitfield enabled has about 20% less overall writes."
 #~ msgstr ""
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:215
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:172
 msgid "Disable bitfield plotting"
 msgstr "Disabilita il plotting con bitfield"
 
@@ -828,7 +800,7 @@ msgstr ""
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Aedge wallet."
 msgstr "Inserisci le 24 parole mnemoniche che hai salvato per poter ripristinare il tuo wallet Aedge."
 
-#: src/components/settings/RemovePassphrasePrompt.tsx:115
+#: src/components/settings/RemovePassphrasePrompt.tsx:118
 msgid "Enter your passphrase:"
 msgstr ""
 
@@ -863,7 +835,7 @@ msgstr "Tempo Stimato per Vincere"
 msgid "Estimated sum of all the plotted disk space of all farmers in the network"
 msgstr "Stima delle dimensioni di tutta la memoria allocata da tutti i farmer della rete"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:279
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:193
 msgid "Exclude final directory"
 msgstr "Escludi directory finale"
 
@@ -894,7 +866,7 @@ msgstr ""
 msgid "Farm"
 msgstr "Coltiva"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:297
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:211
 msgid "Farmer Public Key"
 msgstr "Aedgeve pubblica del farmer"
 
@@ -997,7 +969,7 @@ msgstr "File"
 msgid "Filename"
 msgstr "Nome del file"
 
-#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:47
+#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:36
 msgid "Final folder location"
 msgstr "Seleziona la destinazione finale per la tua cartella plot"
 
@@ -1045,7 +1017,7 @@ msgstr "Visualizza come griglia"
 
 #: src/components/wallet/standard/WalletStandard.tsx:576
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
-msgstr "HD o Hierarchical Deterministic keys sono un tipo di schema a chiave pubblica/chiave privata dove una chiave privata può avere un numero quasi infinito di chiavi pubbliche diverse (e quindi indirizzi di ricezione del wallet) che sono spendibili da una singola chiave privata."
+msgstr "HD o Hierarchical Deterministic keys sono un tipo di schema a aedgeve pubblica/aedgeve privata dove una aedgeve privata può avere un numero quasi infinito di aedgevi pubbliche diverse (e quindi indirizzi di ricezione del wallet) che sono spendibili da una singola aedgeve privata."
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:49
 #~ msgid "Harvester ID"
@@ -1103,7 +1075,7 @@ msgstr "Indirizzo IP"
 msgid "IP address / host"
 msgstr "Indirizzo IP / host"
 
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:128
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:115
 msgid "If none selected, then it will default to the temporary directory."
 msgstr "Se non è selezionato nulla, allora sarà impostata di default la cartella temporanea."
 
@@ -1162,20 +1134,20 @@ msgstr "Stato non valido"
 
 #: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:94
 msgid "It is a one-time login link that can be used to log in to a pool's website. It contains a signature using the farmer's key from the plot NFT. Not all pools support this feature."
-msgstr "Si tratta di un collegamento di accesso una tantum che può essere utilizzato per accedere al sito web di una pool. Contiene una firma che utilizza la chiave del farmer dal plot NFT. Non tutte le pool supportano questa funzione."
+msgstr "Si tratta di un collegamento di accesso una tantum che può essere utilizzato per accedere al sito web di una pool. Contiene una firma che utilizza la aedgeve del farmer dal plot NFT. Non tutte le pool supportano questa funzione."
 
 #: src/components/plotNFT/PlotNFTCard.tsx:406
 #: src/components/pool/PoolOverview.tsx:113
 msgid "Join Pool"
 msgstr "Unisciti alla Pool"
 
-#: src/components/plot/add/PlotAddNFT.tsx:64
-#: src/components/plot/add/PlotAddNFT.tsx:146
+#: src/components/plot/add/PlotAddNFT.tsx:59
+#: src/components/plot/add/PlotAddNFT.tsx:141
 #: src/components/pool/PoolHero.tsx:31
 msgid "Join a Pool"
 msgstr "Unisciti ad una Pool"
 
-#: src/components/plot/add/PlotAddNFT.tsx:49
+#: src/components/plot/add/PlotAddNFT.tsx:44
 msgid "Join a pool and get consistent AEC farming rewards. The average returns are the same, but it is much less volatile."
 msgstr "Unisciti a una pool e ottieni ricompense continue per il farming in AEC. I rendimenti medi sono gli stessi, ma sono molto meno volatili."
 
@@ -1183,7 +1155,7 @@ msgstr "Unisciti a una pool e ottieni ricompense continue per il farming in AEC.
 msgid "Join a pool and get consistent AEC farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
 msgstr "Unisciti a una pool e ottieni ricompense continue per il farming in AEC. I rendimenti medi sono gli stessi, ma sono molto meno volatili. Assegna dei plot ad un pool NFT. È possibile cambiare facilmente pool senza dover ri-plottare."
 
-#: src/components/plot/add/PlotAddNFT.tsx:138
+#: src/components/plot/add/PlotAddNFT.tsx:133
 msgid "Join a pool and get more consistent AEC farming rewards. Create a plot NFT and assign your new plots to a group."
 msgstr "Unisciti a una pool e ottieni ricompense continue per il farming in AEC. Crea un plot NFT e assegna i tuoi nuovi plot ad un gruppo."
 
@@ -1335,11 +1307,11 @@ msgstr ""
 msgid "Minimum Difficulty"
 msgstr "Difficoltà Minima"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:98
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:97
 msgid "Minutes"
 msgstr "Minuti"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:118
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:116
 msgid "More memory slightly increases speed"
 msgstr "Più memoria aumenta leggermente la velocità"
 
@@ -1397,7 +1369,7 @@ msgstr "No"
 
 #: src/middleware/middleware_api.jsx:273
 msgid "No 24 word seed, since this key is imported."
-msgstr "Nessun seed di 24 parole, dato che la chiave è importata."
+msgstr "Nessun seed di 24 parole, dato che la aedgeve è importata."
 
 #: src/components/farm/card/FarmCardLastHeightFarmed.tsx:21
 msgid "No blocks farmed yet"
@@ -1409,7 +1381,7 @@ msgstr "Nessuna transazione precedente"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:160
 msgid "No private keys for one or both addresses. Safe only if you are sending rewards to another wallet."
-msgstr "Nessuna chiave privata per uno o entrambi gli indirizzi. Sicuro solo se stai inviando ricompense ad un altro wallet."
+msgstr "Nessuna aedgeve privata per uno o entrambi gli indirizzi. Sicuro solo se stai inviando ricompense ad un altro wallet."
 
 #: src/components/farm/FarmFullNodeConnections.tsx:32
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:32
@@ -1421,7 +1393,7 @@ msgstr "ID nodo"
 msgid "Node Id"
 msgstr "Id nodo"
 
-#: src/components/plot/add/PlotAddNFT.tsx:91
+#: src/components/plot/add/PlotAddNFT.tsx:86
 msgid "None"
 msgstr "Nessuno"
 
@@ -1468,15 +1440,11 @@ msgstr "Nota che questo non cambia gli indirizzi di pagamento del pooling. Quest
 msgid "Number of Plots"
 msgstr "Numero di Plot"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:171
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:147
 msgid "Number of buckets"
 msgstr "Numero di bucket"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:188
-msgid "Number of buckets for phase 3 & 4"
-msgstr ""
-
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:136
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:133
 msgid "Number of threads"
 msgstr "Numero di thread"
 
@@ -1509,11 +1477,11 @@ msgstr ""
 msgid "Outgoing"
 msgstr "In uscita"
 
-#: src/components/app/AppKeyringMigrator.tsx:129
-#: src/components/app/AppKeyringMigrator.tsx:130
-#: src/components/app/AppPassPrompt.tsx:221
-#: src/components/settings/RemovePassphrasePrompt.tsx:123
-#: src/components/settings/SetPassphrasePrompt.tsx:142
+#: src/components/app/AppKeyringMigrator.tsx:135
+#: src/components/app/AppKeyringMigrator.tsx:136
+#: src/components/app/AppPassPrompt.tsx:225
+#: src/components/settings/RemovePassphrasePrompt.tsx:126
+#: src/components/settings/SetPassphrasePrompt.tsx:155
 msgid "Passphrase"
 msgstr ""
 
@@ -1533,8 +1501,8 @@ msgstr ""
 msgid "Passphrase Settings"
 msgstr ""
 
-#: src/components/app/AppPassPrompt.tsx:149
-#: src/components/settings/RemovePassphrasePrompt.tsx:64
+#: src/components/app/AppPassPrompt.tsx:152
+#: src/components/settings/RemovePassphrasePrompt.tsx:67
 msgid "Passphrase is incorrect"
 msgstr ""
 
@@ -1668,9 +1636,9 @@ msgstr "Per favore inserisci una pubkey valida"
 msgid "Please enter your current passphrase, and a new passphrase"
 msgstr ""
 
-#: src/components/app/AppPassPrompt.tsx:182
-#: src/components/app/AppPassPrompt.tsx:198
-#: src/components/settings/RemovePassphrasePrompt.tsx:47
+#: src/components/app/AppPassPrompt.tsx:185
+#: src/components/app/AppPassPrompt.tsx:201
+#: src/components/settings/RemovePassphrasePrompt.tsx:50
 msgid "Please enter your passphrase"
 msgstr ""
 
@@ -1703,13 +1671,13 @@ msgstr "Per favore seleziona il colore della moneta"
 #~ msgid "Please select coin type"
 #~ msgstr ""
 
-#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:56
-#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:60
+#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:45
+#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:49
 msgid "Please specify final directory"
 msgstr "Per favore specifica la cartella finale"
 
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:73
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:77
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:60
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:64
 msgid "Please specify temporary directory"
 msgstr "Per favore specifica la cartella temporanea"
 
@@ -1722,12 +1690,12 @@ msgstr "Attendi la fine della sincronizzazione"
 msgid "Please wait for wallet synchronization"
 msgstr "Attendi la fine della sincronizzazione del wallet"
 
-#: src/components/plot/Plot.tsx:28
+#: src/components/plot/Plot.tsx:18
 msgid "Plot"
 msgstr "Plot"
 
 #: src/components/farm/card/FarmCardPlotCount.tsx:12
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:44
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:41
 msgid "Plot Count"
 msgstr "Conteggio Plot"
 
@@ -1760,7 +1728,7 @@ msgstr "Aedgeve Pubblica del Plot"
 #~ msgid "Plot Seed"
 #~ msgstr ""
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:94
+#: src/components/plot/add/PlotAddChooseSize.tsx:80
 msgid "Plot Size"
 msgstr "Dimensione Plot"
 
@@ -1792,10 +1760,6 @@ msgstr "Plot che hanno passato il filtro"
 msgid "Plots are allocated space on your hard drive used to farm and earn Aedge. <0>Learn more</0>"
 msgstr "I plot sono dello spazio allocato sui tuoi dischi che viene usato per coltivare e guadagnare Aedge. <0>Per saperne di più</0>"
 
-#: src/components/plot/add/PlotAddChoosePlotter.tsx:118
-msgid "Plotter"
-msgstr ""
-
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
 msgid "Plotting"
 msgstr "Plottando"
@@ -1804,7 +1768,7 @@ msgstr "Plottando"
 msgid "Plotting in parallel can save time. Otherwise, add plot(s) to the queue."
 msgstr "Plottare in parallelo può far risparmiare tempo. In alternativa, aggiungi plot alla coda."
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:217
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:174
 msgid "Plotting with bitfield enabled has about 30% less overall writes and is now almost always faster. You may see reduced memory requirements with bitfield plotting disabled. If your CPU design is from before 2010 you may have to disable bitfield plotting."
 msgstr "Il plotting con bitfield abilitato ha circa il 30% in meno di scritture complessive ed è ora quasi sempre più veloce. Potresti vedere requisiti di memoria ridotti con il plotting bitfield disabilitato. Se l'architettura della tua CPU è precedente al 2010 potresti dover disabilitare il plotting bitfield."
 
@@ -1849,7 +1813,7 @@ msgid "Pool Payout Instructions"
 msgstr "Istruzioni Di Pagamento Pool"
 
 #: src/components/block/Block.jsx:264
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:308
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:222
 msgid "Pool Public Key"
 msgstr "Aedgeve Pubblica Pool"
 
@@ -1969,7 +1933,7 @@ msgstr "Aedgeve pubblica:"
 msgid "Puzzlehash"
 msgstr ""
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:204
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:162
 msgid "Queue Name"
 msgstr "Nome Coda"
 
@@ -1985,7 +1949,7 @@ msgstr "In coda"
 #~ msgid "Quit"
 #~ msgstr "Quit"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:117
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:115
 msgid "RAM max usage"
 msgstr "Utilizzo massimo RAM"
 
@@ -2113,7 +2077,7 @@ msgstr ""
 msgid "Search block by header hash"
 msgstr "Cerca blocco dal header hash"
 
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:106
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:93
 msgid "Second temporary folder location"
 msgstr "Posizione seconda cartella temporanea"
 
@@ -2123,17 +2087,17 @@ msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:216
 msgid "See private key"
-msgstr "Vedi chiave privata"
+msgstr "Vedi aedgeve privata"
 
 #: src/middleware/middleware_api.jsx:265
 msgid "Seed:"
 msgstr "Seed:"
 
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:100
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:87
 msgid "Select 2nd Temporary Directory"
 msgstr "Seleziona 2a Cartella Temporanea"
 
-#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:34
+#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:23
 msgid "Select Final Directory"
 msgstr "Selezione Cartella Finale"
 
@@ -2145,7 +2109,7 @@ msgstr "Selezione Aedgeve"
 msgid "Select Offer"
 msgstr "Seleziona Offerta"
 
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:52
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:39
 msgid "Select Temporary Directory"
 msgstr "Seleziona Cartella Temporanea"
 
@@ -2153,7 +2117,7 @@ msgstr "Seleziona Cartella Temporanea"
 msgid "Select Wallet Type"
 msgstr "Seleziona Tipo di Wallet"
 
-#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:36
+#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:25
 msgid "Select the final destination for the folder where you would like the plot to be stored. We recommend you use a large slow hard drive (like external HDD)."
 msgstr "Seleziona la destinazione finale per la cartella dove vuoi che venga conservato il plot. Ti consigliamo di usare una hard drive lento e capiente (come un HDD)."
 
@@ -2161,21 +2125,21 @@ msgstr "Seleziona la destinazione finale per la cartella dove vuoi che venga con
 #~ msgid "Select the temporary destination for the folder where you would like the plot to be stored. We recommend you use a fast SSD."
 #~ msgstr "Select the temporary destination for the folder where you would like the plot to be stored. We recommend you use a fast SSD."
 
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:54
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:41
 msgid "Select the temporary destination for the folder where you would like the plot to be stored. We recommend you use a fast drive."
 msgstr "Scegli la posizione temporanea della cartella dove vuoi che vengano conservati i plot. Consigliamo di usare un disco veloce."
 
-#: src/components/plot/add/PlotAddNFT.tsx:86
+#: src/components/plot/add/PlotAddNFT.tsx:81
 msgid "Select your Plot NFT"
 msgstr "Seleziona il tuo Plot NFT"
 
-#: src/components/plot/add/PlotAddNFT.tsx:77
+#: src/components/plot/add/PlotAddNFT.tsx:72
 msgid "Select your Plot NFT from the dropdown or create a new one."
 msgstr "Seleziona il tuo Plot NFT dal menu a discesa o creane uno nuovo."
 
-#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:72
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:90
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:121
+#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:61
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:77
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:108
 msgid "Selected"
 msgstr "Selezionato"
 
@@ -2262,7 +2226,7 @@ msgstr ""
 #~ msgid "Skips adding [final dir] to harvester for farming"
 #~ msgstr "Skips adding [final dir] to harvester for farming"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:281
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:195
 msgid "Skips adding a final directory to harvester for farming"
 msgstr "Salta l'aggiunta di una cartella finale all'harvester per il farming"
 
@@ -2273,10 +2237,6 @@ msgstr "Riduci la fluttuazione nelle tue ricompense in AEC da farming unendoti a
 #: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:60
 msgid "Something went wrong"
 msgstr "Qualcosa è andato storto"
-
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:138
-msgid "Specify a value of 0 to use all available threads"
-msgstr ""
 
 #: src/electron/main.tsx:479
 msgid "Speech"
@@ -2359,7 +2319,7 @@ msgstr "Stato:"
 #~ msgid "Sub Block at height {0} in the Aedge blockchain"
 #~ msgstr "Sub Block at height {0} in the Aedge blockchain"
 
-#: src/components/app/AppPassPrompt.tsx:199
+#: src/components/app/AppPassPrompt.tsx:202
 #: src/components/wallet/did/WalletDID.tsx:889
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:347
 msgid "Submit"
@@ -2417,7 +2377,7 @@ msgstr "Target Puzzle Hash"
 #~ msgid "Temporary files are created during the plotting process which exceeds the size of the final plot files. Make sure you have enough space. <0>Learn more</0>"
 #~ msgstr ""
 
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:64
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:51
 msgid "Temporary folder location"
 msgstr "Posizione cartella temporanea"
 
@@ -2429,8 +2389,8 @@ msgstr "L'applicazione smetterà di funzionare al blocco con altezza 193536."
 msgid "The full node that your farmer is connected to is below. <0>Learn more</0>"
 msgstr "Il full node a cui è connesso il tuo farmer è di seguito. <0>Per saperne di più</0>"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:48
-#: src/components/plot/add/PlotAddChooseSize.tsx:105
+#: src/components/plot/add/PlotAddChooseSize.tsx:34
+#: src/components/plot/add/PlotAddChooseSize.tsx:91
 msgid "The minimum required size for mainnet is k=32"
 msgstr "La dimensione minima richiesta per la mainnet è k=32"
 
@@ -2509,7 +2469,7 @@ msgid "This difficulty is an artifically lower difficulty than on the real netwo
 msgstr "Questa difficoltà è artificialmente inferiore a quella della rete reale, e viene utilizzato per il farming, al fine di trovare più prove e inviarle alla pool. Più pool hai, più sarà alta la difficoltà locale. Tuttavia, la difficoltà non influisce sulle ricompense."
 
 #: src/components/trading/CreateOffer.jsx:123
-#: src/hooks/useSelectDirectory.tsx:33
+#: src/hooks/useSelectDirectory.tsx:32
 #: src/hooks/useSelectFile.tsx:21
 msgid "This feature is available only from the GUI."
 msgstr "Questa funzione è disponibile solo sulla GUI."
@@ -2536,7 +2496,7 @@ msgstr "Questo è il tempo in cui il blocco è stato creato dal coltivatore, che
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
 msgid "This is the total amount of aedge in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Questo è l'ammontare totale di chia nella blockchain nell'attuale sottoblocco di picco che è controllato dalle tue chiavi private. Questo include le ricompense da farming congelate, ma non le transazioni in entrata e uscita che sono in attesa."
+msgstr "Questo è l'ammontare totale di aedge nella blockchain nell'attuale sottoblocco di picco che è controllato dalle tue aedgevi private. Questo include le ricompense da farming congelate, ma non le transazioni in entrata e uscita che sono in attesa."
 
 #: src/components/wallet/card/WalletCardPendingTotalBalance.tsx:29
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2558,7 +2518,7 @@ msgstr "Questo nodo è pronto e sta validando la rete"
 
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:308
 msgid "This plot NFT is assigned to a different key. You can still create plots for this plot NFT, but you can not make changes."
-msgstr "Questo plot NFT è assegnato a una chiave diversa. Puoi ancora creare dei plot per questo plot NFT, ma non puoi apportare modifiche."
+msgstr "Questo plot NFT è assegnato a una aedgeve diversa. Puoi ancora creare dei plot per questo plot NFT, ma non puoi apportare modifiche."
 
 #: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:52
 msgid "This plot NFT is not connected to pool"
@@ -2583,10 +2543,6 @@ msgstr "Questo commercio è stato incluso sulla blockchain a questa altezza di b
 #: src/components/app/AppTimeBombAlert.tsx:19
 msgid "This version of Aedge is no longer compatible with the blockchain and can not safely farm."
 msgstr "Questa versione di Aedge non è più compatibile con la blockchain e non può coltivare in modo sicuro."
-
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:154
-msgid "Thread Multiplier for Phase 2"
-msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:92
 msgid "Time Created"
@@ -2678,7 +2634,7 @@ msgstr "Filtro Hash Transazioni"
 msgid "Type"
 msgstr "Tipo"
 
-#: src/components/plot/add/PlotAdd.tsx:132
+#: src/components/plot/add/PlotAdd.tsx:101
 msgid "Unable to create plot NFT"
 msgstr "Impossibile creare plot NFT"
 
@@ -2835,26 +2791,22 @@ msgstr "Vuoi unirti a una Pool? Crea un plot NFT"
 msgid "Want to earn more Aedge? Add more plots to your farm."
 msgstr "Vuoi guadagnare più Aedge? Aggingi più plot alla tua coltivazione."
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:87
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 msgid "Want to have a delay before the next plot starts?"
 msgstr "Vuoi un ritardo prima che parta il prossimo plot?"
-
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:252
-msgid "Warm start"
-msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:88
 #: src/components/selectKey/SelectKey.tsx:119
 msgid "Warning: This key is used for a wallet that may have a non-zero balance. By deleting this key you may lose access to this wallet"
-msgstr "Attenzione: Questa chiave è usata per un wallet che può avere un saldo diverso da zero. Eliminando questa chiave potresti perdere l'accesso a questo wallet"
+msgstr "Attenzione: Questa aedgeve è usata per un wallet che può avere un saldo diverso da zero. Eliminando questa aedgeve potresti perdere l'accesso a questo wallet"
 
 #: src/components/selectKey/SelectKey.tsx:81
 msgid "Warning: This key is used for your farming rewards address. By deleting this key you may lose access to any future farming rewards"
-msgstr "Attenzione: Questa chiave è utilizzata per il tuo indirizzo delle ricompense per il farming. Eliminando questa chiave potresti perdere l'accesso a qualsiasi ricompensa futura per il farming"
+msgstr "Attenzione: Questa aedgeve è utilizzata per il tuo indirizzo delle ricompense per il farming. Eliminando questa aedgeve potresti perdere l'accesso a qualsiasi ricompensa futura per il farming"
 
 #: src/components/selectKey/SelectKey.tsx:94
 msgid "Warning: This key is used for your pool rewards address. By deleting this key you may lose access to any future pool rewards"
-msgstr "Attenzione: Questa chiave è utilizzata per il tuo indirizzo delle ricompense per il farming. Eliminando questa chiave potresti perdere l'accesso a qualsiasi ricompensa futura per il farming"
+msgstr "Attenzione: Questa aedgeve è utilizzata per il tuo indirizzo delle ricompense per il farming. Eliminando questa aedgeve potresti perdere l'accesso a qualsiasi ricompensa futura per il farming"
 
 #: src/components/block/Block.jsx:206
 msgid "Weight"
@@ -2866,7 +2818,7 @@ msgstr "Il peso è la difficoltà aggiunta in totale a tutti i sottoblocchi fino
 
 #: src/components/selectKey/SelectKey.tsx:183
 msgid "Welcome to Aedge. Please log in with an existing key, or create a new key."
-msgstr "Benvenuto da Aedge. Per favore accedi con una chiave esistente, o crea una nuova chiave."
+msgstr "Benvenuto da Aedge. Per favore accedi con una aedgeve esistente, o crea una nuova aedgeve."
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2884,7 +2836,7 @@ msgstr "Finestra"
 msgid "Without fees"
 msgstr "Senza tasse"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:49
+#: src/components/plot/add/PlotAddChooseSize.tsx:35
 #: src/components/trading/TradingOverview.jsx:209
 #: src/electron/main.tsx:192
 msgid "Yes"
@@ -2903,7 +2855,7 @@ msgstr "Non sei in auto-pooling"
 msgid "You can still create plots for this plot NFT, but you can not make changes until sync is complete."
 msgstr "È ancora possibile creare plot per questo plot NFT, ma non sarà possibile apportare modifiche fino a quando la sincronizzazione sarà completa."
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:77
+#: src/components/plot/add/PlotAddChooseSize.tsx:63
 msgid "You do not need to be synced or connected to plot. Temporary files are created during the plotting process which exceed the size of the final plot files. Make sure you have enough space. <0>Learn more</0>"
 msgstr ""
 
@@ -3031,7 +2983,7 @@ msgstr "altezza:"
 msgid "not synced"
 msgstr "non sincronizzato"
 
-#: src/components/plot/add/PlotAdd.tsx:136
+#: src/components/plot/add/PlotAdd.tsx:105
 msgid "p2_singleton_puzzle_hash is not defined"
 msgstr "p2_singleton_puzzle_hash non è definito"
 
@@ -3050,10 +3002,6 @@ msgstr "sincronizzato"
 msgid "syncing"
 msgstr "sincronizzando"
 
-#: src/components/plot/add/PlotAddChoosePlotter.tsx:89
-msgid "thirdparty.plotter.disclaimer"
-msgstr ""
-
 #: src/components/app/AppPassPrompt.tsx:48
 msgid "{0, plural, one {Passphrases must be at least # character in length} other {Passphrases must be at least # characters in length}}"
 msgstr ""
@@ -3065,11 +3013,6 @@ msgstr ""
 #: src/components/farm/card/FarmCardUserFees.tsx:16
 #~ msgid "{0} User Transaction Fees"
 #~ msgstr "{0} User Transaction Fees"
-
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:172
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:189
-msgid "{0} buckets is recommended"
-msgstr ""
 
 #: src/components/plotNFT/PlotNFTGraph.tsx:111
 msgid "{0} points {1} - {2} hours ago"
@@ -3090,7 +3033,3 @@ msgstr "{currencyCode} Tasse Transazione Utente"
 #: src/components/core/components/Amount/Amount.tsx:82
 msgid "{mojo, plural, one {mojo} other {mojos}}"
 msgstr "{mojo, plural, one {mojo} other {mojos}}"
-
-#: src/components/plot/add/PlotAddChoosePlotter.tsx:133
-msgid "{warning}"
-msgstr ""

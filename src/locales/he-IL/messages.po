@@ -321,8 +321,8 @@ msgid "Change Pool"
 msgstr "שנה/י בריכה (Pool)"
 
 #: src/electron/main.tsx:401
-msgid "Chat on KeyBase"
-msgstr "צ'אט ב-KeyBase"
+msgid "Chat on Discord"
+msgstr "צ'אט ב-Discord"
 
 #: src/electron/main.tsx:419
 msgid "Aedge"

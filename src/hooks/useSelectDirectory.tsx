@@ -5,7 +5,6 @@ import { AlertDialog } from '@aedge/core';
 import useOpenDialog from './useOpenDialog';
 
 type Options = {
-  defaultPath?: string;
   buttonLabel?: string;
 };
 

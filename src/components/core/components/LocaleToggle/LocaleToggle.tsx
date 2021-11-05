@@ -39,14 +39,6 @@ export default function LocaleToggle(props: Props) {
     toggleOpen();
   }
 
-  function handleHelpTranslate() {
-    handleClose();
-
-    openExternal(
-      'https://github.com/Chia-Network/chia-blockchain-gui/tree/main/src/locales/README.md',
-    );
-  }
-
   const localeData = useMemo(
     () => locales.find((item) => item.locale === currentLocale),
     [currentLocale, locales],
@@ -72,10 +64,6 @@ export default function LocaleToggle(props: Props) {
         open={open}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleHelpTranslate}>
-          <Trans>Help translate</Trans>
-        </MenuItem>
-        <Divider />
         {locales.map((item) => (
           <MenuItem
             key={item.locale}

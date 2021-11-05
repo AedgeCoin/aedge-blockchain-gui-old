@@ -321,7 +321,7 @@ msgid "Change Pool"
 msgstr ""
 
 #: src/electron/main.tsx:401
-msgid "Chat on KeyBase"
+msgid "Chat on Discord"
 msgstr ""
 
 #: src/electron/main.tsx:419

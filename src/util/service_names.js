@@ -4,7 +4,7 @@ export const service_farmer = 'aedge_farmer';
 export const service_harvester = 'aedge_harvester';
 export const service_simulator = 'aedge_full_node_simulator';
 export const service_daemon = 'daemon';
-export const service_plotter = 'aedge_plotter';
+export const service_plotter = 'aedge plots create';
 
 // Corresponds with outbound_message.py NodeTypes
 export const service_connection_types = {

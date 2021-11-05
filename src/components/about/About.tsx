@@ -114,7 +114,7 @@ export default function About(props: Props) {
         </StyledLink>
         <StyledSubTitle>{description}</StyledSubTitle>
         <Spacer />
-        <div className="copyright">Copyright (c) 2021 AedgeCoin</div>
+        <div className="copyright">Copyright (c) 2021 Chia Network, AedgeCoin</div>
         <Spacer />
         <VersionsTable>
           {versions?.electron && (
@@ -142,6 +142,7 @@ export default function About(props: Props) {
             </tr>
           )}
         </VersionsTable>
+
         {'{{CSS}}'}
       </body>
     </html>

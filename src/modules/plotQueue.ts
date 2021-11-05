@@ -8,6 +8,31 @@ import PlotStatus from '../constants/PlotStatus';
 import { stopService } from './daemon_messages';
 import { service_plotter } from '../util/service_names';
 
+const FINISHED_LOG_LINES = 2626; // 128
+// const FINISHED_LOG_LINES_64 = 1379; // 64
+// const FINISHED_LOG_LINES_32 = 754; // 32
+
+const LOG_CHECKPOINTS: Record<string, number> = {
+  'Computing table 1': 0.01,
+  'Computing table 2': 0.06,
+  'Computing table 3': 0.12,
+  'Computing table 4': 0.2,
+  'Computing table 5': 0.28,
+  'Computing table 6': 0.36,
+  'Computing table 7': 0.42,
+  'Backpropagating on table 7': 0.43,
+  'Backpropagating on table 6': 0.48,
+  'Backpropagating on table 5': 0.51,
+  'Backpropagating on table 4': 0.55,
+  'Backpropagating on table 3': 0.58,
+  'Backpropagating on table 2': 0.61,
+  'Compressing tables 1 and 2': 0.66,
+  'Compressing tables 2 and 3': 0.73,
+  'Compressing tables 3 and 4': 0.79,
+  'Compressing tables 4 and 5': 0.85,
+  'Compressing tables 5 and 6': 0.92,
+  'Compressing tables 6 and 7': 0.98,
+};
 
 type PlotQueueItemPartial = PlotQueueItem & {
   log_new?: string;
@@ -55,35 +80,28 @@ export function plotQueueAdd(
 ): ThunkAction<any, RootState, unknown, Action<Object>> {
   return (dispatch) => {
     const {
-      bladebitDisableNUMA,
-      bladebitWarmStart,
-      c,
-      delay,
-      disableBitfieldPlotting,
-      excludeFinalDir,
-      farmerPublicKey,
+      plotSize,
+      plotCount,
+      workspaceLocation,
+      workspaceLocation2,
       finalLocation,
-      fingerprint,
-      madmaxNumBucketsPhase3,
-      madmaxTempToggle,
-      madmaxThreadMultiplier,
       maxRam,
       numBuckets,
       numThreads,
-      overrideK,
-      parallel,
-      plotCount,
-      plotSize,
-      plotterName,
-      poolPublicKey,
       queue,
-      workspaceLocation,
-      workspaceLocation2,
+      fingerprint,
+      parallel,
+      delay,
+      disableBitfieldPlotting,
+      excludeFinalDir,
+      overrideK,
+      farmerPublicKey,
+      poolPublicKey,
+      c,
     } = config;
 
     return dispatch(
       startPlotting(
-        plotterName,
         plotSize,
         plotCount,
         workspaceLocation,
@@ -102,11 +120,6 @@ export function plotQueueAdd(
         farmerPublicKey,
         poolPublicKey,
         c,
-        bladebitDisableNUMA,
-        bladebitWarmStart,
-        madmaxNumBucketsPhase3,
-        madmaxTempToggle,
-        madmaxThreadMultiplier,
       ),
     );
   };
@@ -166,14 +179,6 @@ const initialState: PlotQueueState = {
   deleting: [],
 };
 
-function parseProgressUpdate(line: string, currentProgress: number): number {
-  let progress: number = currentProgress;
-  if (line.startsWith("Progress update: ")) {
-    progress = Math.min(1, parseFloat(line.substr("Progress update: ".length)));
-  }
-  return progress;
-}
-
 function addPlotProgress(queue: PlotQueueItem[]): PlotQueueItem[] {
   if (!queue) {
     return queue;
@@ -181,22 +186,44 @@ function addPlotProgress(queue: PlotQueueItem[]): PlotQueueItem[] {
 
   return queue.map((item) => {
     const { log, state } = item;
-    if (state === 'FINISHED') {
-      return {
-        ...item,
-        progress: 1.0,
-      };
-    } else if (state !== 'RUNNING') {
+    if (state !== 'RUNNING') {
       return item;
     }
 
-    let progress = item.progress || 0;
+    let progress = 0;
 
     if (log) {
       const lines = log.trim().split(/\r\n|\r|\n/);
-      const lastLine = lines[lines.length - 1];
+      const lineSet = new Set(lines);
 
-      progress = parseProgressUpdate(lastLine, progress);
+      // Find the last checkpoint the log has reached, then increment
+      // additional progress based on the log length of a 128 bucket plot.
+      let currentCheckpoint: string | undefined;
+      let nextCheckpoint: string | undefined;
+      for (const checkpoint in LOG_CHECKPOINTS) {
+        if (lineSet.has(checkpoint)) {
+          currentCheckpoint = checkpoint;
+          progress = LOG_CHECKPOINTS[checkpoint];
+        } else {
+          nextCheckpoint = checkpoint;
+          break;
+        }
+      }
+
+      if (currentCheckpoint) {
+        progress +=
+          (lines.length -
+            lines.findIndex((line) => line === currentCheckpoint)) /
+          FINISHED_LOG_LINES;
+
+        // Once buckets can be > 128, this prevents the progress bar from
+        // ever decreasing
+        progress = nextCheckpoint
+          ? Math.min(progress, LOG_CHECKPOINTS[nextCheckpoint])
+          : progress;
+      }
+
+      progress = Math.min(1, progress);
     }
 
     return {

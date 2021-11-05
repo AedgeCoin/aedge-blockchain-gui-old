@@ -15,10 +15,6 @@ export default function PlotNFTSelectFaucet(props: Props) {
   const currencyCode = useCurrencyCode();
   const openExternal = useOpenExternal();
 
-  function handleClick() {
-    openExternal('https://faucet.aedgecoin.com/');
-  }
-
   return (
     <CardStep
       step={step}
@@ -36,6 +32,7 @@ export default function PlotNFTSelectFaucet(props: Props) {
       <Typography variant="subtitle1">
         <Trans>You need {currencyCode} to join a pool.</Trans>
       </Typography>
+
     </CardStep>
   );
 }

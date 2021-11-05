@@ -152,7 +152,7 @@ const getStatusItems = (state, connected, latestPeakTimestamp, networkInfo) => {
       ) : (
         <Trans>Not connected</Trans>
       ),
-      colour: connected ? '#3AAC59' : 'red',
+      colour: connected ? '#2EC4B6' : 'red',
     });
   } else {
     const item = {

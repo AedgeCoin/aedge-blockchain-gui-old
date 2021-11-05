@@ -1,6 +1,6 @@
 {
     "name": "aedge-blockchain",
-    "author": "AedgeCoin (https://aedgecoin.com/)",
+    "author": "AedgeCoin <hello@aedgecoin.com> (https://aedgecoin.com/)",
     "description": "GUI for Aedge Blockchain",
     "productName": "Aedge Blockchain",
     "private": true,

@@ -18,23 +18,15 @@ msgstr ""
 "X-Crowdin-File: /[AedgeCoin.aedge-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
-#: src/components/plot/add/PlotAddChoosePlotter.tsx:78
-msgid "(Not Installed)"
-msgstr ""
-
-#: src/components/plot/add/PlotAddChoosePlotter.tsx:75
-msgid "(Not Supported)"
-msgstr ""
-
-#: src/components/plot/add/PlotAddNFT.tsx:67
+#: src/components/plot/add/PlotAddNFT.tsx:62
 msgid "(Optional)"
 msgstr "（可选）"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
 msgid "*Want to explore Aedge’s blocks further? Check out <0>Aedge Explorer</0> built by an open source developer."
-msgstr "* 想要进一步了解奇亚？来看看一位开源开发者创建的 <0>奇亚区块浏览器</0>。"
+msgstr "* 想要进一步了解Aedge？来看看一位开源开发者创建的 <0>Aedge区块浏览器</0>。"
 
-#: src/components/plot/add/PlotAddNFT.tsx:128
+#: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
 msgstr "+ 添加新的农田NFT"
 
@@ -47,21 +39,17 @@ msgstr "+ 添加钱包"
 #~ msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:148
-#~ msgid "128 buckets is recommended"
-#~ msgstr "排序桶数量推荐设置为128"
+msgid "128 buckets is recommended"
+msgstr "排序桶数量推荐设置为128"
 
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:98
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr "收割机是一个在存有农田文件的机器上运行的服务。农民和收割机通过和全节点交互来得到链的状态。你可以在下面看到你网络所连接的收割机。了解更多"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:155
-msgid "A value of {0} is recommended"
-msgstr ""
-
 #: src/electron/main.tsx:431
 #: src/electron/main.tsx:518
 msgid "About Aedge Blockchain"
-msgstr "关于奇亚Aedge区块链项目"
+msgstr "关于AedgeAedge区块链项目"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -107,7 +95,7 @@ msgstr "将农田开垦任务加入队列"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:46
 #: src/components/plot/PlotHeader.tsx:63
-#: src/components/plot/add/PlotAdd.tsx:191
+#: src/components/plot/add/PlotAdd.tsx:160
 #: src/components/plot/overview/PlotOverviewHero.tsx:54
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:230
 #: src/components/plotNFT/PlotNFTCard.tsx:272
@@ -143,10 +131,6 @@ msgstr "地址 / 谜语哈希"
 
 #: src/components/app/AppKeyringMigrator.tsx:195
 msgid "After your keys are successfully migrated to the new keyring, you may choose to have your keys removed from the old keyring."
-msgstr ""
-
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:238
-msgid "Alternate tmpdir/tmpdir2"
 msgstr ""
 
 #: src/components/core/components/Amount/Amount.tsx:99
@@ -193,7 +177,7 @@ msgstr "确定要退出吗? 农田开垦和耕种将会停止。"
 #~ msgid "Are you sure you want to use k={plotSize}"
 #~ msgstr "Are you sure you want to use k={plotSize}"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:52
+#: src/components/plot/add/PlotAddChooseSize.tsx:38
 msgid "Are you sure you want to use k={plotSize}?"
 msgstr "你确定要使用 k={plotSize}？"
 
@@ -251,7 +235,7 @@ msgstr "区块可验证延迟函数迭代"
 
 #: src/components/block/Block.jsx:337
 msgid "Block at height {0} in the Aedge blockchain"
-msgstr "奇亚区块链上高度为 {0} 的区块"
+msgstr "Aedge区块链上高度为 {0} 的区块"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -273,9 +257,9 @@ msgstr "区块"
 #~ msgid "Both values are empty. This is ok if you are, for example, sending your rewards to an offline wallet."
 #~ msgstr "Both values are empty. This is ok if you are, for example, sending your rewards to an offline wallet."
 
-#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:72
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:92
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:123
+#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:61
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:79
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:110
 msgid "Browse"
 msgstr "浏览"
 
@@ -351,32 +335,28 @@ msgid "Change Pool"
 msgstr "更换农业合作社"
 
 #: src/electron/main.tsx:410
-msgid "Chat on KeyBase"
-msgstr "在Keybase上参与讨论"
+msgid "Chat on Discord"
+msgstr "在Discord上参与讨论"
 
 #: src/electron/main.tsx:428
 msgid "Aedge"
-msgstr "奇亚"
+msgstr "Aedge"
 
 #: src/electron/main.tsx:367
 msgid "Aedge Blockchain Wiki"
-msgstr "奇亚区块链项目维基"
+msgstr "Aedge区块链项目维基"
 
 #: src/components/wallet/standard/WalletStandard.tsx:642
 msgid "Aedge Wallet"
-msgstr "奇亚钱包"
+msgstr "Aedge钱包"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:34
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
 msgstr "选择要开垦的数量"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:75
+#: src/components/plot/add/PlotAddChooseSize.tsx:61
 msgid "Choose Plot Size"
 msgstr "选择农田文件大小"
-
-#: src/components/plot/add/PlotAddChoosePlotter.tsx:105
-msgid "Choose Plotter"
-msgstr ""
 
 #: src/components/plotNFT/PlotNFTCard.tsx:384
 #: src/components/pool/PoolOverview.tsx:92
@@ -517,7 +497,7 @@ msgid "Copy to Clipboard"
 msgstr "复制到剪贴板"
 
 #: src/components/backup/BackupCreate.tsx:58
-#: src/components/plot/add/PlotAdd.tsx:211
+#: src/components/plot/add/PlotAdd.tsx:177
 #: src/components/plotNFT/select/PlotNFTSelectPool.tsx:175
 #: src/components/wallet/create/createExistingColouredCoin.jsx:133
 #: src/components/wallet/create/createNewColouredCoin.jsx:142
@@ -577,7 +557,7 @@ msgstr "发起交易"
 msgid "Create a Backup"
 msgstr "创建备份"
 
-#: src/components/plot/add/PlotAddNFT.tsx:47
+#: src/components/plot/add/PlotAddNFT.tsx:42
 msgid "Create a Plot NFT"
 msgstr "创建农田NFT"
 
@@ -625,7 +605,7 @@ msgstr "正在创建农田NFT并加入农业合作社"
 msgid "Creating Plot NFT for Self Pooling"
 msgstr "正在创建自耕种的农田NFT"
 
-#: src/components/plot/add/PlotAdd.tsx:117
+#: src/components/plot/add/PlotAdd.tsx:86
 msgid "Currency code is not defined"
 msgstr "货币代码未定义"
 
@@ -665,7 +645,7 @@ msgstr "注意：永久性删除私钥"
 msgid "Date"
 msgstr "日期"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:93
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:92
 msgid "Delay"
 msgstr "延迟"
 
@@ -723,10 +703,6 @@ msgstr ""
 #~ msgid "Deleting the key will permanently remove the key from your computer, make sure you have backups. Are you sure you want to continue?"
 #~ msgstr "删除此密钥将会把密钥从你的计算机中永久移除，请确保你已经将其备份。确定继续？"
 
-#: src/components/plot/add/PlotAddChoosePlotter.tsx:107
-msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Aedge Proof of Space plotter. If unsure, use the default Aedge Proof of Space plotter."
-msgstr ""
-
 #: src/electron/main.tsx:313
 msgid "Developer"
 msgstr "开发者"
@@ -744,10 +720,6 @@ msgstr "难度"
 msgid "Disable"
 msgstr ""
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:266
-msgid "Disable NUMA"
-msgstr ""
-
 #: src/components/app/AppPassPrompt.tsx:77
 msgid "Disable Passphrase Protection"
 msgstr ""
@@ -756,7 +728,7 @@ msgstr ""
 #~ msgid "Disable bifield plotting when your temporary directory is on fast storage like SSD or you need lower per process RAM requirements. Plotting with bitfield enabled has about 20% less overall writes."
 #~ msgstr ""
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:215
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:172
 msgid "Disable bitfield plotting"
 msgstr "开垦时禁用位域"
 
@@ -826,9 +798,9 @@ msgstr ""
 
 #: src/components/wallet/WalletImport.tsx:146
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Aedge wallet."
-msgstr "请输入你保存的24个助记词来恢复奇亚钱包"
+msgstr "请输入你保存的24个助记词来恢复Aedge钱包"
 
-#: src/components/settings/RemovePassphrasePrompt.tsx:115
+#: src/components/settings/RemovePassphrasePrompt.tsx:118
 msgid "Enter your passphrase:"
 msgstr ""
 
@@ -844,7 +816,7 @@ msgstr "错误"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
 msgid "Error: Cannot send aedge to coloured address. Please enter a aedge address."
-msgstr "错误：无法发送奇亚到染色地址。请输入奇亚钱包地址。"
+msgstr "错误：无法发送Aedge到染色地址。请输入Aedge钱包地址。"
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -863,7 +835,7 @@ msgstr "预计区块发现时间"
 msgid "Estimated sum of all the plotted disk space of all farmers in the network"
 msgstr "估计网络中所有农民已开垦农田占用磁盘空间量"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:279
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:193
 msgid "Exclude final directory"
 msgstr "不耕种最终输出文件夹"
 
@@ -894,7 +866,7 @@ msgstr ""
 msgid "Farm"
 msgstr "农场"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:297
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:211
 msgid "Farmer Public Key"
 msgstr "农民公钥"
 
@@ -997,7 +969,7 @@ msgstr "文件"
 msgid "Filename"
 msgstr "文件名"
 
-#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:47
+#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:36
 msgid "Final folder location"
 msgstr "最终输出文件夹位置"
 
@@ -1103,7 +1075,7 @@ msgstr "IP地址"
 msgid "IP address / host"
 msgstr "IP地址 / 主机"
 
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:128
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:115
 msgid "If none selected, then it will default to the temporary directory."
 msgstr "如果未指定，将会使用上述临时目录。"
 
@@ -1169,13 +1141,13 @@ msgstr "这是一个用于登录农业合作社网站的一次性链接。此链
 msgid "Join Pool"
 msgstr "加入农业合作社"
 
-#: src/components/plot/add/PlotAddNFT.tsx:64
-#: src/components/plot/add/PlotAddNFT.tsx:146
+#: src/components/plot/add/PlotAddNFT.tsx:59
+#: src/components/plot/add/PlotAddNFT.tsx:141
 #: src/components/pool/PoolHero.tsx:31
 msgid "Join a Pool"
 msgstr "加入农业合作社"
 
-#: src/components/plot/add/PlotAddNFT.tsx:49
+#: src/components/plot/add/PlotAddNFT.tsx:44
 msgid "Join a pool and get consistent AEC farming rewards. The average returns are the same, but it is much less volatile."
 msgstr "加入农业合作社来获得持续的AEC耕种收益。平均回报是相同的，但是收益会更加稳定。"
 
@@ -1183,7 +1155,7 @@ msgstr "加入农业合作社来获得持续的AEC耕种收益。平均回报是
 msgid "Join a pool and get consistent AEC farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
 msgstr "加入农业合作社来获得持续的AEC耕种收益。平均回报是相同的，但是收益会更加稳定。为已开垦的农田分配农田NFT。你可以轻松切换耕种池，而不比重新开垦现有农田。"
 
-#: src/components/plot/add/PlotAddNFT.tsx:138
+#: src/components/plot/add/PlotAddNFT.tsx:133
 msgid "Join a pool and get more consistent AEC farming rewards. Create a plot NFT and assign your new plots to a group."
 msgstr "加入农业合作社来获得持续的AEC耕种收益。创建一个农田NFT，然后将新农田分配到组。"
 
@@ -1335,11 +1307,11 @@ msgstr ""
 msgid "Minimum Difficulty"
 msgstr "最小难度"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:98
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:97
 msgid "Minutes"
 msgstr "分钟"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:118
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:116
 msgid "More memory slightly increases speed"
 msgstr "增加内存可以略微提高速度"
 
@@ -1421,7 +1393,7 @@ msgstr "节点ID"
 msgid "Node Id"
 msgstr "节点ID"
 
-#: src/components/plot/add/PlotAddNFT.tsx:91
+#: src/components/plot/add/PlotAddNFT.tsx:86
 msgid "None"
 msgstr "无"
 
@@ -1468,15 +1440,11 @@ msgstr "请注意，这将不会改变你的合作社耕作支付地址。这只
 msgid "Number of Plots"
 msgstr "农田数"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:171
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:147
 msgid "Number of buckets"
 msgstr "桶数量"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:188
-msgid "Number of buckets for phase 3 & 4"
-msgstr ""
-
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:136
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:133
 msgid "Number of threads"
 msgstr "线程数量"
 
@@ -1509,11 +1477,11 @@ msgstr "只允许一个备份文件。"
 msgid "Outgoing"
 msgstr "支出"
 
-#: src/components/app/AppKeyringMigrator.tsx:129
-#: src/components/app/AppKeyringMigrator.tsx:130
-#: src/components/app/AppPassPrompt.tsx:221
-#: src/components/settings/RemovePassphrasePrompt.tsx:123
-#: src/components/settings/SetPassphrasePrompt.tsx:142
+#: src/components/app/AppKeyringMigrator.tsx:135
+#: src/components/app/AppKeyringMigrator.tsx:136
+#: src/components/app/AppPassPrompt.tsx:225
+#: src/components/settings/RemovePassphrasePrompt.tsx:126
+#: src/components/settings/SetPassphrasePrompt.tsx:155
 msgid "Passphrase"
 msgstr ""
 
@@ -1533,8 +1501,8 @@ msgstr ""
 msgid "Passphrase Settings"
 msgstr ""
 
-#: src/components/app/AppPassPrompt.tsx:149
-#: src/components/settings/RemovePassphrasePrompt.tsx:64
+#: src/components/app/AppPassPrompt.tsx:152
+#: src/components/settings/RemovePassphrasePrompt.tsx:67
 msgid "Passphrase is incorrect"
 msgstr ""
 
@@ -1668,9 +1636,9 @@ msgstr "请输入一个正确的公钥"
 msgid "Please enter your current passphrase, and a new passphrase"
 msgstr ""
 
-#: src/components/app/AppPassPrompt.tsx:182
-#: src/components/app/AppPassPrompt.tsx:198
-#: src/components/settings/RemovePassphrasePrompt.tsx:47
+#: src/components/app/AppPassPrompt.tsx:185
+#: src/components/app/AppPassPrompt.tsx:201
+#: src/components/settings/RemovePassphrasePrompt.tsx:50
 msgid "Please enter your passphrase"
 msgstr ""
 
@@ -1703,13 +1671,13 @@ msgstr "请选择币的色彩"
 #~ msgid "Please select coin type"
 #~ msgstr ""
 
-#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:56
-#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:60
+#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:45
+#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:49
 msgid "Please specify final directory"
 msgstr "请指定最终输出文件夹"
 
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:73
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:77
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:60
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:64
 msgid "Please specify temporary directory"
 msgstr "请指定临时目录"
 
@@ -1722,12 +1690,12 @@ msgstr "请等待同步"
 msgid "Please wait for wallet synchronization"
 msgstr "请等待钱包同步"
 
-#: src/components/plot/Plot.tsx:28
+#: src/components/plot/Plot.tsx:18
 msgid "Plot"
 msgstr "农田"
 
 #: src/components/farm/card/FarmCardPlotCount.tsx:12
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:44
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:41
 msgid "Plot Count"
 msgstr "农田数"
 
@@ -1760,7 +1728,7 @@ msgstr "农田公钥"
 #~ msgid "Plot Seed"
 #~ msgstr ""
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:94
+#: src/components/plot/add/PlotAddChooseSize.tsx:80
 msgid "Plot Size"
 msgstr "农田大小"
 
@@ -1790,11 +1758,7 @@ msgstr "通过初筛的农田"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
 msgid "Plots are allocated space on your hard drive used to farm and earn Aedge. <0>Learn more</0>"
-msgstr "农田就是在你的硬盘上分配的一块空间，用来收获奇亚币。<0>了解更多</0>"
-
-#: src/components/plot/add/PlotAddChoosePlotter.tsx:118
-msgid "Plotter"
-msgstr ""
+msgstr "农田就是在你的硬盘上分配的一块空间，用来收获Aedge。<0>了解更多</0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
 msgid "Plotting"
@@ -1804,7 +1768,7 @@ msgstr "正在开垦"
 msgid "Plotting in parallel can save time. Otherwise, add plot(s) to the queue."
 msgstr "并发开垦可以有效节省开垦时间但对系统资源要求很高。系统硬件不够的话建议选择按队列顺序开垦。"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:217
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:174
 msgid "Plotting with bitfield enabled has about 30% less overall writes and is now almost always faster. You may see reduced memory requirements with bitfield plotting disabled. If your CPU design is from before 2010 you may have to disable bitfield plotting."
 msgstr "在开垦农田时启用位域会减少约30%的磁盘写入，而且大多数情况下会更快。但如果您在开垦时禁用位域，占用的内存则可能会减少。如果您的CPU是2010年以前的型号，您可能必须禁用位域才能开垦。"
 
@@ -1849,7 +1813,7 @@ msgid "Pool Payout Instructions"
 msgstr "农业合作社支付说明"
 
 #: src/components/block/Block.jsx:264
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:308
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:222
 msgid "Pool Public Key"
 msgstr "池公钥"
 
@@ -1969,7 +1933,7 @@ msgstr "公钥："
 msgid "Puzzlehash"
 msgstr "谜题哈希"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:204
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:162
 msgid "Queue Name"
 msgstr "队列名"
 
@@ -1985,7 +1949,7 @@ msgstr "排队中"
 #~ msgid "Quit"
 #~ msgstr "Quit"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:117
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:115
 msgid "RAM max usage"
 msgstr "内存最大使用量"
 
@@ -2113,7 +2077,7 @@ msgstr ""
 msgid "Search block by header hash"
 msgstr "按头部哈希搜索区块"
 
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:106
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:93
 msgid "Second temporary folder location"
 msgstr "第二临时文件夹位置"
 
@@ -2129,11 +2093,11 @@ msgstr "查看私钥："
 msgid "Seed:"
 msgstr "种子："
 
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:100
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:87
 msgid "Select 2nd Temporary Directory"
 msgstr "选择第二临时文件夹"
 
-#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:34
+#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:23
 msgid "Select Final Directory"
 msgstr "选择最终输出文件夹"
 
@@ -2145,7 +2109,7 @@ msgstr "选择密钥"
 msgid "Select Offer"
 msgstr "选择出价"
 
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:52
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:39
 msgid "Select Temporary Directory"
 msgstr "选择临时文件夹"
 
@@ -2153,7 +2117,7 @@ msgstr "选择临时文件夹"
 msgid "Select Wallet Type"
 msgstr "选择钱包类别"
 
-#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:36
+#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:25
 msgid "Select the final destination for the folder where you would like the plot to be stored. We recommend you use a large slow hard drive (like external HDD)."
 msgstr "选择您希望保存农田文件的最终输出文件夹。我们建议您使用大容量、慢速的硬盘（比如外置机械硬盘）。"
 
@@ -2161,21 +2125,21 @@ msgstr "选择您希望保存农田文件的最终输出文件夹。我们建议
 #~ msgid "Select the temporary destination for the folder where you would like the plot to be stored. We recommend you use a fast SSD."
 #~ msgstr "Select the temporary destination for the folder where you would like the plot to be stored. We recommend you use a fast SSD."
 
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:54
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:41
 msgid "Select the temporary destination for the folder where you would like the plot to be stored. We recommend you use a fast drive."
 msgstr "Select the temporary destination for the folder where you would like the plot to be stored. We recommend you use a fast drive."
 
-#: src/components/plot/add/PlotAddNFT.tsx:86
+#: src/components/plot/add/PlotAddNFT.tsx:81
 msgid "Select your Plot NFT"
 msgstr "选择你的农田NFT"
 
-#: src/components/plot/add/PlotAddNFT.tsx:77
+#: src/components/plot/add/PlotAddNFT.tsx:72
 msgid "Select your Plot NFT from the dropdown or create a new one."
 msgstr "从下拉菜单中选择现有农田NFT，或者新建。"
 
-#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:72
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:90
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:121
+#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:61
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:77
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:108
 msgid "Selected"
 msgstr "已选择"
 
@@ -2262,7 +2226,7 @@ msgstr ""
 #~ msgid "Skips adding [final dir] to harvester for farming"
 #~ msgstr "Skips adding [final dir] to harvester for farming"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:281
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:195
 msgid "Skips adding a final directory to harvester for farming"
 msgstr "勾选此项，将不会自动把最终目录添加到收割机进行耕种"
 
@@ -2273,10 +2237,6 @@ msgstr "加入农业合作社来稳定AEC耕作收益。"
 #: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:60
 msgid "Something went wrong"
 msgstr "出错了"
-
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:138
-msgid "Specify a value of 0 to use all available threads"
-msgstr ""
 
 #: src/electron/main.tsx:479
 msgid "Speech"
@@ -2308,7 +2268,7 @@ msgstr "支出迭代长度(区块数)"
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
 msgid "Spending Limit (aedge per interval): {0}"
-msgstr "消费限额（单位时间可消费的奇亚币）：{0}"
+msgstr "消费限额（单位时间可消费的Aedge）：{0}"
 
 #: src/components/fullNode/FullNode.jsx:100
 msgid "State"
@@ -2359,7 +2319,7 @@ msgstr "状态："
 #~ msgid "Sub Block at height {0} in the Aedge blockchain"
 #~ msgstr "Sub Block at height {0} in the Aedge blockchain"
 
-#: src/components/app/AppPassPrompt.tsx:199
+#: src/components/app/AppPassPrompt.tsx:202
 #: src/components/wallet/did/WalletDID.tsx:889
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:347
 msgid "Submit"
@@ -2417,7 +2377,7 @@ msgstr "目标迷题哈希"
 #~ msgid "Temporary files are created during the plotting process which exceeds the size of the final plot files. Make sure you have enough space. <0>Learn more</0>"
 #~ msgstr ""
 
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:64
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:51
 msgid "Temporary folder location"
 msgstr "临时文件夹位置"
 
@@ -2429,8 +2389,8 @@ msgstr "这个版本会在区块高度达到193536时停止工作。"
 msgid "The full node that your farmer is connected to is below. <0>Learn more</0>"
 msgstr "你的农场连接的全节点如下.<0>了解更多</0>"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:48
-#: src/components/plot/add/PlotAddChooseSize.tsx:105
+#: src/components/plot/add/PlotAddChooseSize.tsx:34
+#: src/components/plot/add/PlotAddChooseSize.tsx:91
 msgid "The minimum required size for mainnet is k=32"
 msgstr "主网要求的最小农田大小为k=32"
 
@@ -2493,7 +2453,7 @@ msgstr "本区块上奖励给农民的全部交易费用。"
 
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:107
 msgid "These are the instructions for how the farmer wants to get paid. By default this will be an AEC address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
-msgstr "这是农民耕种奖励的支付方式。默认情况下，这将是一个XCH钱包地址，但是你可以设置任意长度小于1024的字符串，也就是说，你可以指定其它区块链或者支付系统标识。"
+msgstr "这是农民耕种奖励的支付方式。默认情况下，这将是一个AEC钱包地址，但是你可以设置任意长度小于1024的字符串，也就是说，你可以指定其它区块链或者支付系统标识。"
 
 #: src/components/plot/PlotsFailed.tsx:40
 msgid "These plots are invalid, you might want to delete them."
@@ -2509,14 +2469,14 @@ msgid "This difficulty is an artifically lower difficulty than on the real netwo
 msgstr "此难度是比实际网络难度人为降低的难度，它将被用于耕作中，用来发现尽量多的验证数据并发送给农业合作社。你的农田越多，你的难度就会越高。这个难度不会影响你的耕作奖励。"
 
 #: src/components/trading/CreateOffer.jsx:123
-#: src/hooks/useSelectDirectory.tsx:33
+#: src/hooks/useSelectDirectory.tsx:32
 #: src/hooks/useSelectFile.tsx:21
 msgid "This feature is available only from the GUI."
 msgstr "此功能只在图形界面中提供。"
 
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
 msgid "This is the amount of Aedge that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Aedge that you have just spent but is not yet in the blockchain."
-msgstr "这是你目前可以交易的奇亚币数额。该数额不包含处理中的农场奖励、收入交易，以及未经区块链确认的支付交易。"
+msgstr "这是你目前可以交易的Aedge数额。该数额不包含处理中的农场奖励、收入交易，以及未经区块链确认的支付交易。"
 
 #: src/components/wallet/card/WalletCardPendingChange.tsx:26
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2536,7 +2496,7 @@ msgstr "此时间是该区块被农民创建的时间，因此，此时间会早
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
 msgid "This is the total amount of aedge in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "这里是你的私钥所控制的, 到目前最新子块高度为止的全部奇亚数. 包含被冻结的耕种奖励, 但不包含待处理的收入与支出."
+msgstr "这里是你的私钥所控制的, 到目前最新子块高度为止的全部Aedge数. 包含被冻结的耕种奖励, 但不包含待处理的收入与支出."
 
 #: src/components/wallet/card/WalletCardPendingTotalBalance.tsx:29
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2582,11 +2542,7 @@ msgstr "该交易在链上的区块高度"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
 msgid "This version of Aedge is no longer compatible with the blockchain and can not safely farm."
-msgstr "此版本的奇亚客户端与区块链已经不再兼容，无法安全地种植。"
-
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:154
-msgid "Thread Multiplier for Phase 2"
-msgstr ""
+msgstr "此版本的Aedge客户端与区块链已经不再兼容，无法安全地种植。"
 
 #: src/components/fullNode/FullNode.jsx:92
 msgid "Time Created"
@@ -2678,7 +2634,7 @@ msgstr "交易过滤器哈希"
 msgid "Type"
 msgstr "类别"
 
-#: src/components/plot/add/PlotAdd.tsx:132
+#: src/components/plot/add/PlotAdd.tsx:101
 msgid "Unable to create plot NFT"
 msgstr "无法创建农田NFT"
 
@@ -2833,15 +2789,11 @@ msgstr "想要加入农业合作社？创建一个农田NFT"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
 msgid "Want to earn more Aedge? Add more plots to your farm."
-msgstr "想要获得更多奇亚币？ 给你的农场多开垦一些农田吧。"
+msgstr "想要获得更多Aedge？ 给你的农场多开垦一些农田吧。"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:87
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 msgid "Want to have a delay before the next plot starts?"
 msgstr "想要在开垦下一块农田前等待一会？"
-
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:252
-msgid "Warm start"
-msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:88
 #: src/components/selectKey/SelectKey.tsx:119
@@ -2866,11 +2818,11 @@ msgstr "权重是施加给所有子块包括目前这块的额外的困难度."
 
 #: src/components/selectKey/SelectKey.tsx:183
 msgid "Welcome to Aedge. Please log in with an existing key, or create a new key."
-msgstr "欢迎来到奇亚。请用已有的密钥登录，或者创建一个新的密钥。"
+msgstr "欢迎来到Aedge。请用已有的密钥登录，或者创建一个新的密钥。"
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
-msgstr "欢迎使用奇亚! 下面的词语列表是你的钱包密语, 请务必严格完整的把它们记下来(保持顺序). 没有这段密语的话, 你就没办法找回钱包里的币. 千万也不要透露给别人."
+msgstr "欢迎使用Aedge! 下面的词语列表是你的钱包密语, 请务必严格完整的把它们记下来(保持顺序). 没有这段密语的话, 你就没办法找回钱包里的币. 千万也不要透露给别人."
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:316
 msgid "When you receive the setup info packet from your admin, enter it below to complete your Rate Limited Wallet setup:"
@@ -2884,7 +2836,7 @@ msgstr "窗口"
 msgid "Without fees"
 msgstr "不含交易费"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:49
+#: src/components/plot/add/PlotAddChooseSize.tsx:35
 #: src/components/trading/TradingOverview.jsx:209
 #: src/electron/main.tsx:192
 msgid "Yes"
@@ -2903,7 +2855,7 @@ msgstr "你目前没有自耕种"
 msgid "You can still create plots for this plot NFT, but you can not make changes until sync is complete."
 msgstr "你现在可以使用这个农田NFT开垦新农田，但是在同步完成前，你不能进行任何更改。"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:77
+#: src/components/plot/add/PlotAddChooseSize.tsx:63
 msgid "You do not need to be synced or connected to plot. Temporary files are created during the plotting process which exceed the size of the final plot files. Make sure you have enough space. <0>Learn more</0>"
 msgstr ""
 
@@ -3031,7 +2983,7 @@ msgstr "高度："
 msgid "not synced"
 msgstr "未同步"
 
-#: src/components/plot/add/PlotAdd.tsx:136
+#: src/components/plot/add/PlotAdd.tsx:105
 msgid "p2_singleton_puzzle_hash is not defined"
 msgstr "p2_singleton_puzzle_hash 未定义"
 
@@ -3050,10 +3002,6 @@ msgstr "已同步"
 msgid "syncing"
 msgstr "同步中"
 
-#: src/components/plot/add/PlotAddChoosePlotter.tsx:89
-msgid "thirdparty.plotter.disclaimer"
-msgstr ""
-
 #: src/components/app/AppPassPrompt.tsx:48
 msgid "{0, plural, one {Passphrases must be at least # character in length} other {Passphrases must be at least # characters in length}}"
 msgstr ""
@@ -3066,11 +3014,6 @@ msgstr ""
 #~ msgid "{0} User Transaction Fees"
 #~ msgstr "{0} User Transaction Fees"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:172
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:189
-msgid "{0} buckets is recommended"
-msgstr ""
-
 #: src/components/plotNFT/PlotNFTGraph.tsx:111
 msgid "{0} points {1} - {2} hours ago"
 msgstr "{0} 积点 {1} - {2} 小时前"
@@ -3081,7 +3024,7 @@ msgstr "{currencyCode} 区块奖励"
 
 #: src/components/farm/card/FarmCardTotalAedgeFarmed.tsx:29
 msgid "{currencyCode} Total Aedge Farmed"
-msgstr "{currencyCode} 收获的奇亚币总计"
+msgstr "{currencyCode} 收获的Aedge总计"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"
@@ -3090,7 +3033,3 @@ msgstr "{currencyCode} 用户交易费用"
 #: src/components/core/components/Amount/Amount.tsx:82
 msgid "{mojo, plural, one {mojo} other {mojos}}"
 msgstr "{mojo, plural, one {mojo} other {mojos}}"
-
-#: src/components/plot/add/PlotAddChoosePlotter.tsx:133
-msgid "{warning}"
-msgstr ""

@@ -13,15 +13,10 @@ import { useFormContext } from 'react-hook-form';
 import usePlotNFTs from '../../../hooks/usePlotNFTs';
 import PlotNFTName from '../../plotNFT/PlotNFTName';
 import PlotNFTSelectPool from '../../plotNFT/select/PlotNFTSelectPool';
-import Plotter from '../../../types/Plotter';
 
-type Props = {
-  step: number;
-  plotter: Plotter;
-};
+type Props = {};
 
 const PlotAddNFT = forwardRef((props: Props, ref) => {
-  const { step } = props;
   const { nfts, external, loading } = usePlotNFTs();
   const [showCreatePlotNFT, setShowCreatePlotNFT] = useState<boolean>(false);
   const { setValue } = useFormContext();
@@ -41,7 +36,7 @@ const PlotAddNFT = forwardRef((props: Props, ref) => {
   if (showCreatePlotNFT) {
     return (
       <PlotNFTSelectPool
-        step={step}
+        step={5}
         onCancel={handleCancelPlotNFT}
         ref={ref}
         title={<Trans>Create a Plot NFT</Trans>}
@@ -57,7 +52,7 @@ const PlotAddNFT = forwardRef((props: Props, ref) => {
 
   return (
     <CardStep
-      step={step}
+      step="5"
       title={
         <Flex gap={1} alignItems="baseline">
           <Box>
