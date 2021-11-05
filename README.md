@@ -1,6 +1,5 @@
 # AedgeCoin ($AEC)
 ###### The algorithmic cryptocurrency for store of value and algotrading
----
 
 Aedge is building a decentralized financial infrastructure to create a haven for storing value and make algotrading accessible for everyone.
 
